@@ -24,6 +24,7 @@
     "react-native-screens": "~2.9.0",
     "react-native-web": "~0.11.7",
     "simctl": "^2.0.0",
+    "webpack-config": "^7.5.0",
     "yup": "^0.29.3"
   },
   "devDependencies": {
