@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';import { NavigationContainer } from '@react-navigation/native';
 import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
 import Form from '../components/Form';
 import * as Yup from 'yup';
+import { firebase } from '../utils/firebase';
 
 const CourseEditScreen = ({navigation, route}) => {
     const course = route.params.course;
